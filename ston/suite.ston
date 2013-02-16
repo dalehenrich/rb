@@ -1,0 +1,1 @@
+TDSmalltalkLeafNode {	#name : 'suite',	#contents : '| suite |\rsuite := TestSuite named: \'Index Family Suite\'.\r{RBFormatterTests.\rRBParserTest.\rRBProgramNodeTest.\rRBSmallDictionaryTest} do: [ :testCase | suite addTests: testCase suite tests ].\r^ suite'}

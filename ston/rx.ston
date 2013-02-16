@@ -1,0 +1,1 @@
+TDSmalltalkLeafNode {	#name : 'rx',	#contents : '| tree1 tree2 source |\rsource := \'select: nsc nsc select: { :person | (person.isMale)  & (person.firstName = \'\'Casey\'\') }\'.\rtree1 := RBParser parseMethod: source.\rtrue\r  ifTrue: [ \r    tree2 := RBParser\r      parseMethod: (RBConfigurableFormatter new format: tree1)\r      onError: [ :err :pos | nil halt ] ].\rtree1'}

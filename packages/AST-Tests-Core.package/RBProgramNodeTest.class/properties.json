@@ -1,0 +1,15 @@
+{
+	"category" : "AST-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaleHenrichs 08/11/2010 16:19",
+	"instvars" : [
+		"node",
+		"previous" ],
+	"name" : "RBProgramNodeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -11,10 +11,16 @@ testQueryBlocks
       'select: nsc
   nsc select: { :person | (person.isMale) & (person.firstName = ''Casey'') }'}.
   self
-    formatMethodSource: ''
+    formatMethodSource:
+      'select: nsc nsc
+    select: { :person | 
+      ((person.isMale == true) & (1 < person.numberOfChildren))
+        & (person.numberOfChildren <= 3) }'
     expected:
       {''.
       ''}.
+  true
+    ifTrue: [ ^ self ].
   self
     formatMethodSource: ''
     expected:

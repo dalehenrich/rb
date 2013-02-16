@@ -8,7 +8,7 @@ scanIdentifierOrKeyword
     whileTrue: [ 
       buffer nextPut: currentCharacter.
       self step.
-      self scanName.
+      self scanPathName.
       name := buffer contents.
       ^ RBPathToken value: name start: tokenStart ].
   (currentCharacter = $: and: [ stream peek ~= $= ])

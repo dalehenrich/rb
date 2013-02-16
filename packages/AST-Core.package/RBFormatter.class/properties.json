@@ -9,7 +9,8 @@
 		"codeStream",
 		"lineStart",
 		"firstLineLength",
-		"tabs" ],
+		"tabs",
+		"inQueryBlock" ],
 	"name" : "RBFormatter",
 	"pools" : [
 		 ],

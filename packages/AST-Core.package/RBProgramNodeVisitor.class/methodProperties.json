@@ -13,6 +13,7 @@
 		"acceptPatternBlockNode:" : "",
 		"acceptPatternWrapperBlockNode:" : "",
 		"acceptPragmaNode:" : "lr 10/18/2009 12:37",
+		"acceptQueryBlockNode:" : "dkh 02/16/2013 09:15",
 		"acceptReturnNode:" : "",
 		"acceptSequenceNode:" : "",
 		"acceptVariableNode:" : "",

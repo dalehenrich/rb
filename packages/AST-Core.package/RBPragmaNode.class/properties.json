@@ -9,6 +9,7 @@
 		"selector",
 		"selectorParts",
 		"arguments",
+		"isProtected",
 		"left",
 		"right" ],
 	"name" : "RBPragmaNode",

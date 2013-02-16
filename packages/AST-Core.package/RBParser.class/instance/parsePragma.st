@@ -1,8 +1,11 @@
 private-parsing
 parsePragma
-	^ currentToken isIdentifier
-		ifTrue: [ self parseUnaryPragma ]
-		ifFalse: [
-			currentToken isKeyword
-				ifTrue: [ self parseKeywordPragma ]
-				ifFalse: [ self parseBinaryPragma ] ]
+  ^ currentToken isIdentifier
+    ifTrue: [ 
+      currentToken value = 'protected'
+        ifTrue: [ self parseProtectedPragma ]
+        ifFalse: [ self parseUnaryPragma ] ]
+    ifFalse: [ 
+      currentToken isKeyword
+        ifTrue: [ self parseKeywordPragma ]
+        ifFalse: [ self parseBinaryPragma ] ]

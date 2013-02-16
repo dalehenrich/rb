@@ -7,6 +7,7 @@
 		"FormatCommentWithStatements",
 		"IndentsForKeywords",
 		"IndentString",
+		"InQueryBlock",
 		"KeepBlockInMessage",
 		"LineUpBlockBrackets",
 		"MaxLineLength",
@@ -35,7 +36,8 @@
 		"indent",
 		"lookaheadCode",
 		"originalSource",
-		"lineStart" ],
+		"lineStart",
+		"inQueryBlock" ],
 	"name" : "RBConfigurableFormatter",
 	"pools" : [
 		 ],

@@ -2,7 +2,7 @@
 	"class" : {
 		"selectorParts:arguments:" : "lr 10/13/2009 14:21" },
 	"instance" : {
-		"=" : "lr 11/9/2009 20:58",
+		"=" : "dkh 02/16/2013 08:03",
 		"acceptVisitor:" : "lr 10/13/2009 14:01",
 		"arguments" : "lr 10/18/2009 12:14",
 		"arguments:" : "lr 10/13/2009 14:01",
@@ -15,6 +15,9 @@
 		"isKeyword" : "lr 11/2/2009 23:37",
 		"isPragma" : "lr 10/13/2009 14:00",
 		"isPrimitive" : "lr 11/9/2009 20:06",
+		"isProtected" : "dkh 02/16/2013 07:52",
+		"isProtected:" : "dkh 02/16/2013 07:54",
+		"isProtectedPrimitive" : "dkh 02/16/2013 07:53",
 		"isUnary" : "lr 10/13/2009 14:01",
 		"left" : "lr 11/5/2009 10:40",
 		"left:" : "lr 11/5/2009 10:40",

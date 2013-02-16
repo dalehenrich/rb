@@ -1,3 +1,3 @@
 accessing
-multiLineMessages: anArray
-	MultiLineMessages := anArray
+multiLineMessages: aString
+	MultiLineMessages := self compilerClass evaluate: aString for: nil logged: false

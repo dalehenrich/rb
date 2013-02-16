@@ -1,6 +1,7 @@
 adding nodes
-addNodeFirst: aNode 
+addNodeFirst: aNode
 	aNode parent: self.
-	statements := (statements asOrderedCollection)
-				addFirst: aNode;
-				yourself
+	statements := statements asOrderedCollection
+		addFirst: aNode;
+		yourself.
+	^ aNode

@@ -1,3 +1,3 @@
 accessing
 multiLineMessages
-	^ MultiLineMessages
+	^ MultiLineMessages printString

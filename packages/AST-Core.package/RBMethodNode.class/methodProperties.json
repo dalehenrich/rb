@@ -6,10 +6,10 @@
 	"instance" : {
 		"=" : "lr 10/18/2009 16:03",
 		"acceptVisitor:" : "",
-		"addNode:" : "",
+		"addNode:" : "lr 1/4/2012 21:40",
 		"addReplacement:" : "",
-		"addReturn" : "",
-		"addSelfReturn" : "",
+		"addReturn" : "lr 1/4/2012 21:38",
+		"addSelfReturn" : "lr 1/4/2012 21:38",
 		"allArgumentVariables" : "",
 		"allDefinedVariables" : "",
 		"argumentNames" : "",

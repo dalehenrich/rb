@@ -3,4 +3,5 @@ addNode: aNode
 	statements := statements asOrderedCollection
 		add: aNode;
 		yourself.
-	aNode parent: self
+	aNode parent: self.
+	^ aNode

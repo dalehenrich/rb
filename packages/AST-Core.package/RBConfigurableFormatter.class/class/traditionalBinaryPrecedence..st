@@ -1,3 +1,3 @@
 accessing
-traditionalBinaryPrecedence: anArray
-	TraditionalBinaryPrecedence := anArray
+traditionalBinaryPrecedence: aString
+	TraditionalBinaryPrecedence := self compilerClass evaluate: aString for: nil logged: false

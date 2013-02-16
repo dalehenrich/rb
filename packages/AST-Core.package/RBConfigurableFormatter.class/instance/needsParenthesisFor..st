@@ -3,7 +3,7 @@ needsParenthesisFor: aNode
 	| parent grandparent |
 	aNode isValue ifFalse: [ ^ false ].
 	parent := aNode parent ifNil: [ ^ false ].
-	(aNode isMessage and: [ parent isMessage and: [ parent receiver == aNode ] ]) ifTrue: [
+	(CascadedMessageInsideParentheses and: [ aNode isMessage and: [ parent isMessage and: [ parent receiver == aNode ] ] ]) ifTrue: [
 		grandparent := parent parent.
 		(grandparent notNil and: [ grandparent isCascade ])
 			ifTrue: [ ^ true ] ].

@@ -8,4 +8,5 @@ addNode: aNode before: anotherNode
 	statements := statements asOrderedCollection
 		add: aNode beforeIndex: index;
 		yourself.
-	aNode parent: self
+	aNode parent: self.
+	^ aNode

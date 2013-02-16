@@ -6,9 +6,7 @@ initializeClassificationTable
 		initializeChars: (Character allCharacters
 			select: [ :each | each isLetter ])
 		to: #alphabetic.
-	(Scanner isLiteralSymbol: '_')
-		ifTrue: [ self initializeChars: '_' to: #alphabetic ]
-		ifFalse: [ self initializeChars: '_' to: #special ].
+	self initializeUnderscore.
 	self initializeChars: '01234567890' to: #digit.
 	self initializeChars: '!%&*+,-/<=>?@\~|' to: #binary.
 	classificationTable at: 177 put: #binary.	"plus-or-minus"
@@ -18,5 +16,5 @@ initializeClassificationTable
 	self initializeChars: '().:;[]{}^' to: #special.
 	self
 		initializeChars: (Character allCharacters
-			select: [ :each | each isSqueakSeparator ])
+			select: [ :each | each isSeparator ])
 		to: #separator

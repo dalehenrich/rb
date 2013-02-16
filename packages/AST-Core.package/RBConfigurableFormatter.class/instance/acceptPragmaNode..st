@@ -3,5 +3,8 @@ acceptPragmaNode: aPragmaNode
 	codeStream nextPut: $<.
 	self 
 		formatSelectorAndArguments: aPragmaNode 
-		firstSeparator: [ ] restSeparator: [ self space ].
+		firstSeparator: [ 
+			aPragmaNode selector isInfix
+				ifTrue: [ self space ] ]
+		restSeparator: [ self space ].
 	codeStream nextPut: $>

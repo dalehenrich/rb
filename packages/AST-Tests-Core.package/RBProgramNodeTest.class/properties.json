@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaleHenrichs 08/11/2010 16:19",
+	"commentStamp" : "",
 	"instvars" : [
 		"node",
 		"previous" ],

@@ -1,5 +1,6 @@
 initialization
 initialize
+	CascadedMessageInsideParentheses := false.
 	FormatCommentWithStatements := true.
 	IndentString := String with: Character tab.
 	IndentsForKeywords := 1.
@@ -8,7 +9,7 @@ initialize
 	MaxLineLength := 120.
 	MethodSignatureOnMultipleLines := false.
 	MinimumNewLinesBetweenStatements := 1.
-	MultiLineMessages := #(#ifTrue:ifFalse: #ifFalse:ifTrue: #ifTrue: #ifFalse:).
+	MultiLineMessages := #(#ifTrue:ifFalse: #ifFalse:ifTrue: #ifTrue: #ifFalse: #on:do: #ensure: #ifCurtailed:).
 	NewLineAfterCascade := true.
 	NewLineBeforeFirstCascade := true.
 	NewLineBeforeFirstKeyword := false.

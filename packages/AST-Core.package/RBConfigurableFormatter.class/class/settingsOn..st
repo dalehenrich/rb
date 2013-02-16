@@ -8,6 +8,8 @@ settingsOn: aBuilder
 		label: 'Configurable Formatter';
 		description: 'Settings related to the formatter';
 		with: [
+			(aBuilder setting: #cascadedMessageInsideParentheses)
+				label: 'Cascaded message inside parentheses'.
 			(aBuilder setting: #formatCommentWithStatements)
 				label: 'Format comment with statements'.
 			(aBuilder setting: #indentString)

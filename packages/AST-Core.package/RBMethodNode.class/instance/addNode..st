@@ -1,3 +1,3 @@
 accessing
-addNode: aNode 
-	^body addNode: aNode
+addNode: aNode
+	^ body addNode: aNode

@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"CascadedMessageInsideParentheses",
 		"FormatCommentWithStatements",
 		"IndentsForKeywords",
 		"IndentString",

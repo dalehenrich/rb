@@ -1,3 +1,3 @@
 accessing
 addSelfReturn
-	^body addSelfReturn
+	^ body addSelfReturn

@@ -1,3 +1,4 @@
 private-replacing
-replaceSourceFrom: aNode 
-	self clearReplacements
+replaceSourceFrom: aNode
+	self == aNode
+		ifFalse: [ self clearReplacements ]

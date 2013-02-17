@@ -4,6 +4,38 @@ testQueryBlocks
 
   self
     formatMethodSource:
+      'select: nsc nsc
+    select: { :person | 
+      (person.isMale) & (1 < person.numberOfChildren)
+        & (person.numberOfChildren <= 3) }'
+    expected:
+      {'select: nsc 
+	nsc select: 
+			{:person | 
+			(person.isMale) & (1 < person.numberOfChildren) 
+				& (person.numberOfChildren <= 3)}'.
+      'select: nsc
+  nsc
+    select: { :person | (person.isMale) & (1 < person.numberOfChildren) & (person.numberOfChildren <= 3) }'}.
+  self
+    formatMethodSource:
+      'select: nsc nsc
+    select: { :person | 
+      (person.isMale == true) & (1 < person.numberOfChildren)
+        & (person.numberOfChildren <= 3) }'
+    expected:
+      {'select: nsc 
+	nsc select: 
+			{:person | 
+			(person.isMale == true) & (1 < person.numberOfChildren) 
+				& (person.numberOfChildren <= 3)}'.
+      'select: nsc
+  nsc
+    select: { :person | 
+      (person.isMale == true) & (1 < person.numberOfChildren)
+        & (person.numberOfChildren <= 3) }'}.
+  self
+    formatMethodSource:
       'select: nsc nsc select: {:person | (person.isMale) & (person.firstName = ''Casey'')}'
     expected:
       {'select: nsc 
@@ -14,11 +46,15 @@ testQueryBlocks
     formatMethodSource:
       'select: nsc nsc
     select: { :person | 
-      ((person.isMale == true) & (1 < person.numberOfChildren))
-        & (person.numberOfChildren <= 3) }'
+      (true) & (1 < person) & (person <= 3) }'
     expected:
-      {''.
-      ''}.
+      {'select: nsc 
+	nsc select: 
+			{:person | 
+			(true) & (1 < person) & (person <= 3)}'.
+      'select: nsc
+  nsc
+    select: { :person | (true) & (1 < person) & (person <= 3) }'}.
   true
     ifTrue: [ ^ self ].
   self

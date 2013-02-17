@@ -37,5 +37,5 @@ needsParenthesisFor: aNode
   parent receiver == aNode
     ifFalse: [ ^ true ].
   inQueryBlock
-    ifTrue: [ ^ true ].
+    ifTrue: [ ^ aNode receiver isMessage not and: [ aNode selector ~~ #'&' ] ].
   ^ self precedenceOf: parent selector greaterThan: aNode selector

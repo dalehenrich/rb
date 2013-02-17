@@ -38,6 +38,6 @@ needsParenthesisFor: aNode
   parent receiver == aNode
     ifFalse: [ ^ true ].
   InQueryBlock
-    ifTrue: [ ^ true ].
+    ifTrue: [ ^ aNode receiver isMessage not and: [ aNode selector ~~ #'&' ] ].
   ^ UseTraditionalBinaryPrecedenceForParentheses
     and: [ self precedenceOf: parent selector greaterThan: aNode selector ]

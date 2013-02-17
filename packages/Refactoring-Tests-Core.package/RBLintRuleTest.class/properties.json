@@ -9,7 +9,5 @@
 		"name",
 		"foo1" ],
 	"name" : "RBLintRuleTest",
-	"pools" : [
-		"TextConstants" ],
 	"super" : "Object",
 	"type" : "normal" }

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "md 7/25/2005 15:17",
+		"setUp" : "dkh 02/17/2013 11:19",
 		"testAbstractClassVariable" : "lr 9/8/2011 20:11",
 		"testInheritedName" : "lr 9/8/2011 20:11",
 		"testMetaClassFailure" : "lr 9/8/2011 20:11",

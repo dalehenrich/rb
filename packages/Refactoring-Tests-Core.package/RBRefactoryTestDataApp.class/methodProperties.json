@@ -29,7 +29,7 @@
 		"extraBlock" : "",
 		"fileBlocks" : "",
 		"foo:" : "",
-		"fullBlocks" : "",
+		"fullBlocks" : "dkh 02/17/2013 14:00",
 		"guardingClause" : "",
 		"ifTrueReturns" : "",
 		"inlineComponent" : "",
@@ -70,7 +70,6 @@
 		"sizeCheck" : "",
 		"stringConcatenation" : "",
 		"symbolReference" : "",
-		"tempVarOverridesInstVar" : "",
 		"tempsReadBeforeWritten" : "",
 		"testFoo:" : "",
 		"testMethod" : "",
@@ -81,5 +80,4 @@
 		"toDoWithIncrement" : "",
 		"usesAdd" : "",
 		"variableAssignedLiteral" : "nk 2/25/2005 16:50",
-		"whileTrue" : "",
 		"yourselfNotUsed" : "" } }

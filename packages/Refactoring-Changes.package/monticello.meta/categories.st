@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Refactoring-Changes'!
+SystemOrganization addCategory: 'Refactoring-Changes'!

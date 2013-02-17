@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Refactoring-Tests-Critics'!
+SystemOrganization addCategory: 'Refactoring-Tests-Critics'!

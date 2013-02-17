@@ -9,5 +9,7 @@
 		"name",
 		"foo1" ],
 	"name" : "RBLintRuleTest",
+	"pools" : [
+		 ],
 	"super" : "Object",
 	"type" : "normal" }

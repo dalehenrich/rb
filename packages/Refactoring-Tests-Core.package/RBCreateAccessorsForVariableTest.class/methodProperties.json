@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "md 7/25/2005 15:17",
+		"setUp" : "dkh 02/17/2013 11:20",
 		"testExistingInstanceVariableAccessors" : "lr 9/8/2011 20:11",
 		"testNewClassVariableAccessors" : "lr 9/8/2011 20:11",
 		"testNewInstanceVariableAccessors" : "lr 9/8/2011 20:11",

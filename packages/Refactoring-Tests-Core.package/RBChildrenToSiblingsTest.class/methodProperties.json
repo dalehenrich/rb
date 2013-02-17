@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lr 2/26/2009 16:47",
+		"setUp" : "dkh 02/17/2013 11:16",
 		"testBadName" : "lr 9/8/2011 20:11",
 		"testExistingName" : "lr 9/8/2011 20:11",
 		"testInvalidSubclass" : "lr 9/8/2011 20:11",

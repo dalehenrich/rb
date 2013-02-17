@@ -1,3 +1,3 @@
 lint
 fullBlocks
-	^[thisContext]
+  ^ [ self yourself ]

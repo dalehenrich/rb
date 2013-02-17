@@ -1,3 +1,3 @@
 methods
 fullBlocks
-	^[thisContext]
+  ^ [ self yourself ]

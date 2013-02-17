@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "dkh 02/17/2013 10:54",
 	"instvars" : [
 		 ],
-	"name" : "RBPharoPlatform",
+	"name" : "RBGemStonePlatform",
 	"pools" : [
 		 ],
 	"super" : "RBPlatform",

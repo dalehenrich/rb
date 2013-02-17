@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Refactoring-GemStone-Platform'!
+SystemOrganization addCategory: 'Refactoring-GemStone-Platform'!

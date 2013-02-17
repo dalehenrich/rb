@@ -31,9 +31,7 @@ baseline: spec
         package: 'Refactoring-Tests-Critics'
           with: [ spec requires: 'Refactoring-Critics' ];
         package: 'Refactoring-Spelling'
-          with: [ 
-              spec requires: 'Refactoring-Critics'.
-              spec postLoadDoIt: #'postLoadRBSpelling' ];
+          with: [ spec requires: 'Refactoring-Critics' ];
         package: 'Refactoring-Tests-Spelling'
           with: [ spec requires: 'Refactoring-Tests-Critics' ];
         package: 'Refactoring-GemStone-Platform'

@@ -1,5 +1,5 @@
 private
 primitiveCheckSpelling: aString startingAt: anInteger
-	<primitive:'primitiveCheckSpelling' module: 'SpellingPlugin'>
+"	<primitive:'primitiveCheckSpelling' module: 'SpellingPlugin'>"
 	
 	self primitiveFailed

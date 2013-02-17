@@ -1,5 +1,5 @@
 primitives
 primitiveGetUniqueSpellingTag
-	<primitive:'primitiveGetUniqueSpellingTag' module: 'SpellingPlugin'>
+"	<primitive:'primitiveGetUniqueSpellingTag' module: 'SpellingPlugin'>"
 
 	^ nil

@@ -1,6 +1,6 @@
 instance creation
-isImmediateSubclass: subclass of: superClass
+isImmediateSubclass: theSubclass of: theSuperClass
 	^self new
-		type: (Array with: #immediateSubclass with: superClass with: subclass)
-		block: [subclass superclass = superClass]
-		errorString: subclass printString , ' is <1?:not >an immediate subclass of ' , superClass printString
+		type: (Array with: #immediateSubclass with: theSuperClass with: theSubclass)
+		block: [theSubclass superclass = theSuperClass]
+		errorString: theSubclass printString , ' is <1?:not >an immediate subclass of ' , theSuperClass printString

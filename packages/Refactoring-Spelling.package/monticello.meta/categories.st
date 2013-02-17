@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Refactoring-Spelling'!
+SystemOrganization addCategory: 'Refactoring-Spelling'!

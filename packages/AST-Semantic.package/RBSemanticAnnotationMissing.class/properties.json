@@ -1,0 +1,14 @@
+{
+	"category" : "AST-Semantic-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBSemanticAnnotationMissing",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "AST-Semantic-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node" ],
+	"name" : "RBUndeclaredVariableNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

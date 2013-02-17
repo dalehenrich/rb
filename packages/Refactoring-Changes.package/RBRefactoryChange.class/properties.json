@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "RBRefactoryChange",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

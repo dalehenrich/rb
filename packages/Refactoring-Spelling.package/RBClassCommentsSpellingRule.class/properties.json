@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Spelling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBClassCommentsSpellingRule",
+	"pools" : [
+		 ],
+	"super" : "RBSpellingRule",
+	"type" : "normal" }

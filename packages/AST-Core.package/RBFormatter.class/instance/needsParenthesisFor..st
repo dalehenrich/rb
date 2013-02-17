@@ -11,6 +11,11 @@ needsParenthesisFor: aNode
         ifTrue: [ ^ true ] ].
   inQueryBlock
     ifTrue: [ 
+      aNode isLiteralNode
+        ifTrue: [ 
+          (parent isMessage
+            and: [ parent receiver == aNode and: [ aNode parent selector == #'&' ] ])
+            ifTrue: [ ^ true ] ].
       aNode isVariable
         ifTrue: [ 
           (aNode token isPath

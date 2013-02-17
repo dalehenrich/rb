@@ -6,6 +6,16 @@ testQueryBlocks
     formatMethodSource:
       'select: nsc nsc
     select: { :person | 
+      (true) & (1 < person) & (person <= 3) }'
+    expected:
+      {'select: nsc 
+	nsc select: {:person | (true) & (1 < person) & (person <= 3)}'.
+      'select: nsc
+  nsc select: { :person | true & (1 < person) & (person <= 3) }'}.
+  self
+    formatMethodSource:
+      'select: nsc nsc
+    select: { :person | 
       (person.isMale) & (1 < person.numberOfChildren)
         & (person.numberOfChildren <= 3) }'
     expected:
@@ -42,19 +52,6 @@ testQueryBlocks
 	nsc select: {:person | (person.isMale) & (person.firstName = ''Casey'')}'.
       'select: nsc
   nsc select: { :person | (person.isMale) & (person.firstName = ''Casey'') }'}.
-  self
-    formatMethodSource:
-      'select: nsc nsc
-    select: { :person | 
-      (true) & (1 < person) & (person <= 3) }'
-    expected:
-      {'select: nsc 
-	nsc select: 
-			{:person | 
-			(true) & (1 < person) & (person <= 3)}'.
-      'select: nsc
-  nsc
-    select: { :person | (true) & (1 < person) & (person <= 3) }'}.
   true
     ifTrue: [ ^ self ].
   self

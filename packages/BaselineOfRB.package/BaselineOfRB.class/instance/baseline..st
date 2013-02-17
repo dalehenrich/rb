@@ -40,7 +40,7 @@ baseline: spec
         group: 'default' with: #('Core');
         group: 'Core'
           with:
-            #('AST-Core' 'AST-Semantic' 'Refactoring-Environment' 'Refactoring-Changes' 'Refactoring-Core' 'Refactoring-Critics' 'Refactoring-Spelling');
+            #('AST-Core' 'AST-Semantic' 'Refactoring-Environment' 'Refactoring-Changes' 'Refactoring-Core' 'Refactoring-Critics' 'Refactoring-Spelling' 'Refactoring-GemStone-Platform');
         group: 'Tests'
           with:
             #('AST-Tests-Core' 'AST-Tests-Semantic' 'Refactoring-Tests-Environment' 'Refactoring-Tests-Changes' 'Refactoring-Tests-Core' 'Refactoring-Tests-Critics' 'Refactoring-Tests-Spelling');

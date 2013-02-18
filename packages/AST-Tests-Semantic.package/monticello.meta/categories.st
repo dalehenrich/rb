@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'AST-Tests-Semantic'!
+SystemOrganization addCategory: 'AST-Tests-Semantic'!

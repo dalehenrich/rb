@@ -1,1 +1,1 @@
-TDTopezLeafNode {	#name : 'x',	#contents : '# test /home/rfb/suite\r# port undefinedSymbols | edit\rtest /home/rfb/suite'}
+TDTopezLeafNode {	#name : 'x',	#contents : '# test /home/rfb/suite\r# port undefinedSymbols\rts debug errors'}

@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"on:readersOfInstanceVariable:in:" : "lr 4/29/2010 19:35",
+		"on:readersOfInstanceVariable:in:" : "dkh 02/18/2013 17:06",
 		"on:referencesToClassVariable:in:" : "md 1/17/2006 14:17",
-		"on:referencesToInstanceVariable:in:" : "lr 4/29/2010 19:35",
-		"on:writersOfInstanceVariable:in:" : "nk 3/4/2005 13:17",
+		"on:referencesToInstanceVariable:in:" : "dkh 02/18/2013 17:00",
+		"on:writersOfInstanceVariable:in:" : "dkh 02/18/2013 17:01",
 		"readersOfInstanceVariable:in:" : "lr 9/8/2011 20:25",
 		"referencesToClassVariable:in:" : "lr 9/8/2011 20:25",
 		"referencesToInstanceVariable:in:" : "lr 9/8/2011 20:25",

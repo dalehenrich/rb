@@ -1,4 +1,4 @@
 accessing
 selectorsFor: aProtocol in: aClass
-	^(aClass organization listAtCategoryNamed: aProtocol)
-		select: [:each | self includesSelector: each in: aClass]
+  ^ (aClass selectorsIn: aProtocol)
+    select: [ :each | self includesSelector: each in: aClass ]

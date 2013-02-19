@@ -1,3 +1,3 @@
 accessing
 whichProtocolIncludes: aSelector in: aClass
-	^aClass organization categoryOfElement: aSelector
+  ^ aClass categoryOfSelector: aSelector

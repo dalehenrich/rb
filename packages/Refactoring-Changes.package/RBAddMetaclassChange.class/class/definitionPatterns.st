@@ -1,4 +1,3 @@
 private
 definitionPatterns
-	^ #('`className class instanceVariableNames: `#instanceVariableNames'
-		'`className class uses: `@traitComposition instanceVariableNames: `#instanceVariableNames')
+  ^ {'`className class instanceVariableNames: `#instanceVariableNames'}

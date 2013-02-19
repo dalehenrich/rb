@@ -4,7 +4,7 @@
 		"classInstVar" ],
 	"classvars" : [
 		"ClassVar" ],
-	"commentStamp" : "dkh 02/18/2013 17:30",
+	"commentStamp" : "dkh 02/18/2013 18:52",
 	"instvars" : [
 		"instVar" ],
 	"name" : "RBRefactoringChangeMock",

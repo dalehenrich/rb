@@ -4,7 +4,7 @@ scanIdentifierOrKeyword
   self scanName.
   [ 
   currentCharacter = $.
-    and: [ 'abcdefghijklmnopqrstuvwxyz' includes: stream peek ] ]
+    and: [ 'abcdefghijklmnopqrstuvwxyz*' includes: stream peek ] ]
     whileTrue: [ 
       buffer nextPut: currentCharacter.
       self step.

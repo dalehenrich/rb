@@ -3,8 +3,11 @@ scanPathName
   [ 
   (characterType = #'alphabetic' or: [ characterType = #'digit' ])
     or: [ 
-      currentCharacter = $.
-        and: [ 'abcdefghijklmnopqrstuvwxyz' includes: stream peek ] ] ]
+      ((currentCharacter = $. or: [ currentCharacter = $| ])
+        and: [ 'abcdefghijklmnopqrstuvwxyz' includes: stream peek ])
+        or: [ 
+          (currentCharacter = $. and: [ stream peek = $* ])
+            or: [ currentCharacter = $* and: [ stream peek = $. ] ] ] ] ]
     whileTrue: [ 
       buffer nextPut: currentCharacter.
       self step ]

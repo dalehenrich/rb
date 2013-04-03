@@ -1,0 +1,3 @@
+methods
+fullBlocks
+  ^ [ self yourself ]

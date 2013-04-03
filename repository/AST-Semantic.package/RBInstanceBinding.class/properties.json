@@ -1,0 +1,15 @@
+{
+	"category" : "AST-Semantic-Binding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"index" ],
+	"name" : "RBInstanceBinding",
+	"pools" : [
+		 ],
+	"super" : "RBVariableBinding",
+	"type" : "normal" }

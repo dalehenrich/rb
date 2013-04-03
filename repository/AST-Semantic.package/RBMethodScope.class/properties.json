@@ -1,0 +1,14 @@
+{
+	"category" : "AST-Semantic-Scope",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBMethodScope",
+	"pools" : [
+		 ],
+	"super" : "RBNodedScope",
+	"type" : "normal" }

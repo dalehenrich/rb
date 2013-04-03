@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Spelling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/8/2009 12:47",
+	"instvars" : [
+		"words" ],
+	"name" : "RBInternalSpellChecker",
+	"pools" : [
+		 ],
+	"super" : "RBSpellChecker",
+	"type" : "normal" }

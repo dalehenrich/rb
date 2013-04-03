@@ -1,0 +1,14 @@
+{
+	"category" : "AST-Semantic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scope" ],
+	"name" : "RBSemanticAnnotator",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }

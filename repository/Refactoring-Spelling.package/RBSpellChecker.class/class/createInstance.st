@@ -1,0 +1,3 @@
+private
+createInstance
+  ^ RBInternalSpellChecker new

@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-GemStone-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/17/2013 10:54",
+	"instvars" : [
+		 ],
+	"name" : "RBGemStonePlatform",
+	"pools" : [
+		 ],
+	"super" : "RBPlatform",
+	"type" : "normal" }

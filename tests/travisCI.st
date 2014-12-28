@@ -18,7 +18,7 @@ GsDeployer deploy: [
       repository: 'filetree://', gitPath, '/rb/repository';
       load: 'AST-Core' ].
 
-true ifTrue: [
+false ifTrue: [
   "Run all tests in image"
   TravisCISuiteHarness
     value: TestCase suite

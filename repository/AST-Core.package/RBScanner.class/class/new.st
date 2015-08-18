@@ -1,4 +1,3 @@
 instance creation
 new
-	self initializeUnderscore.
-	^ super new
+  ^ super new

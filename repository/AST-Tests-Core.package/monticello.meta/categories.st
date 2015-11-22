@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'AST-Tests-Core'!
+SystemOrganization addCategory: #'AST-Tests-Core'!

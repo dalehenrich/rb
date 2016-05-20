@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'RB',
-      #load : [ 'AST-Core' , 'AST-Tests-Core' ],
+      #load : [ 'AST-Core' , 'AST-Tests-Core' , 'AST-Semantic' , 'AST-Tests-Semantic' ],
       #onWarningLog : true,
       #directory : 'repository',
       #platforms : [ #gemstone ]

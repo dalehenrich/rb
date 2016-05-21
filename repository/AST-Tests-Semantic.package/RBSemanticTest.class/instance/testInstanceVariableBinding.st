@@ -20,5 +20,5 @@ testInstanceVariableBinding
   self deny: binding isReadonly.
   self assert: binding name = 'instVar'.
   self assert: binding printString isString.
-  self assert: binding index = (self class allInstVarNames indexOf: 'instVar').
+  self assert: binding index = (self class allInstVarNames indexOf: #'instVar').
   self assert: binding scope notNil

@@ -15,7 +15,7 @@ testLiteralScope
     do: [ :name | 
       self assert: (scope lookup: name) isLiteralBinding.
       self assert: (scope lookup: name) scope = scope.
-      self assert: (scope lookup: name) name = name ].
+      self assert: (scope lookup: name) name = name asString ].
   self assert: (scope lookup: 'self') scope = scope owner.
   self assert: (scope lookup: 'super') scope = scope owner.
   self assert: (scope lookup: 'thisContext') scope = scope owner.

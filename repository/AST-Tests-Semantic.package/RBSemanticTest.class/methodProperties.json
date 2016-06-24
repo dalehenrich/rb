@@ -11,8 +11,8 @@
 		"testCascadeReceiver" : "lr 5/26/2010 18:48",
 		"testClassVariableBinding" : "lr 9/10/2010 13:24",
 		"testGlobalVariableBinding" : "dkh 02/18/2013 08:26",
-		"testInstanceVariableBinding" : "dkh 02/18/2013 10:13",
-		"testLiteralScope" : "dkh 02/18/2013 10:13",
+		"testInstanceVariableBinding" : "RichardSargent 05/20/2016 16:47",
+		"testLiteralScope" : "RichardSargent 05/20/2016 16:51",
 		"testMethodArgumentBinding" : "lr 9/10/2010 13:24",
 		"testMethodScope" : "lr 5/11/2010 21:56",
 		"testMethodTemporaryBinding" : "lr 9/10/2010 13:24",
@@ -27,5 +27,5 @@
 		"testSpecialSuperBinding" : "lr 9/10/2010 13:24",
 		"testUndeclaredBinding" : "lr 9/10/2010 13:24",
 		"testUndeclaredHandled" : "lr 9/10/2010 13:24",
-		"testVariableScope" : "lr 6/7/2010 15:00",
+		"testVariableScope" : "RichardSargent 05/20/2016 16:52",
 		"testWriter" : "lr 6/4/2010 15:40" } }

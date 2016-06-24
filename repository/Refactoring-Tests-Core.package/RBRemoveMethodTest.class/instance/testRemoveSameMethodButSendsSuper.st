@@ -1,5 +1,7 @@
 failure tests
 testRemoveSameMethodButSendsSuper
-	self shouldWarn: (RBRemoveMethodRefactoring 
-			removeMethods: #(#new )
-			from: RBBasicLintRuleTest class)
+  self
+    shouldWarn:
+      (RBRemoveMethodRefactoring
+        removeMethods: #(#'new')
+        from: RBBasicLintRuleTest class)

@@ -1,8 +1,10 @@
 testing-environments
 testCategoryEnvironment
-	| aCategoryEnvironment |
-	aCategoryEnvironment := RBCategoryEnvironment 
-				onEnvironment: RBBrowserEnvironment new
-				categories: #(#'Kernel-Objects').
-	self universalTestFor: aCategoryEnvironment.
-	self assert: (aCategoryEnvironment implementorsOf: #printString) numberSelectors = 1
+  | aCategoryEnvironment |
+  aCategoryEnvironment := RBCategoryEnvironment
+    onEnvironment: RBBrowserEnvironment new
+    categories: #(#'Kernel').
+  self universalTestFor: aCategoryEnvironment.
+  self
+    assert:
+      (aCategoryEnvironment implementorsOf: #'printString') numberSelectors > 0

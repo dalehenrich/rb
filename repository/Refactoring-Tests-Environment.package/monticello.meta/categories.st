@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Refactoring-Tests-Environment'!
+SystemOrganization addCategory: #'Refactoring-Tests-Environment'!

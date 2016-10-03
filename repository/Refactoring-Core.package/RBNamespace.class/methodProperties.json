@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"onEnvironment:" : "" },
+		"onEnvironment:" : "",
+		"rootsOfTheWorld" : "RichardSargent 10/02/2016 19:23" },
 	"instance" : {
 		"addChangeToClass:" : "lr 10/26/2009 22:09",
 		"addClassVariable:to:" : "",
@@ -38,7 +39,7 @@
 		"performChange:around:" : "",
 		"privateImplementorsOf:" : "lr 4/7/2010 13:45",
 		"privateReferencesTo:" : "lr 4/7/2010 13:45",
-		"privateRootClasses" : "lr 4/7/2010 13:45",
+		"privateRootClasses" : "RichardSargent 10/02/2016 19:23",
 		"removeClass:" : "",
 		"removeClassNamed:" : "",
 		"removeClassVariable:from:" : "",

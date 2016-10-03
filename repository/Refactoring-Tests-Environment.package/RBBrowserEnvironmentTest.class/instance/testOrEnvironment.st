@@ -21,4 +21,4 @@ testOrEnvironment
       (orEnvironment protocolsFor: Object)
         =
           ((universalEnvironment protocolsFor: Object)
-            reject: [ :each | (Object allMethodsInCategory: each) isEmpty ])
+            reject: [ :each | (Object allSelectorsInProtocol: each) isEmpty ])

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'BaselineOfRB'!
+SystemOrganization addCategory: #'BaselineOfRB'!

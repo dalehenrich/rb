@@ -9,7 +9,7 @@ baseline: spec
         with: [ 
           spec
             versionString: '0.247';
-            repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+            repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
       spec
         package: 'AST-Core' with: [ spec requires: 'GsCore' ];
         package: 'AST-Tests-Core' with: [ spec requires: 'AST-Core' ];

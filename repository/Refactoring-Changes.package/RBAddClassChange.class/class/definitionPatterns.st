@@ -11,6 +11,7 @@ definitionPatterns
   '`@superclass subclass: `#className instVarNames: `#instanceVariableNames classVars: `#classVarNames  classInstVars: `#classInstVarNames poolDictionaries: `#poolDictionaries inDictionary: `#inDictionary options: `#options'.
   '`@superclass subclass: `#className instVarNames: `#instanceVariableNames inDictionary: `#inDictionary'.
   '`@superclass subclass: `#className instVarNames: `#instanceVariableNames inDictionary: `#inDictionary options: `#options'.
+  '`@superclass transientSubclass: `#className instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVarNames  poolDictionaries: `#poolDictionaries category: `#category'.
   '`@superclass variableByteSubclass: `#className instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVariableNames poolDictionaries: `#poolDictionaries category: `#category'.
   '`@superclass variableSubclass: `#className instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVariableNames poolDictionaries: `#poolDictionaries category: `#category'.
   '`@superclass indexableSubclass: `#className instVarNames: `#instanceVariableNames classVars: `#classVarNames  classInstVars: `#classInstVarNames poolDictionaries: `#poolDictionaries category: `#category'.

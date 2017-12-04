@@ -2,16 +2,23 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #'common'
+    for: #'glass'
     do: [ 
       spec
         configuration: 'GsCore'
         with: [ 
           spec
             versionString: '0.247';
-            repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
+            repository:
+                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
       spec
         package: 'AST-Core' with: [ spec requires: 'GsCore' ];
+        yourself ].
+  spec
+    for: #'common'
+    do: [ 
+      spec
+        package: 'AST-Core';
         package: 'AST-Tests-Core' with: [ spec requires: 'AST-Core' ];
         package: 'AST-Semantic' with: [ spec requires: 'AST-Core' ];
         package: 'AST-Tests-Semantic' with: [ spec requires: 'AST-Semantic' ];

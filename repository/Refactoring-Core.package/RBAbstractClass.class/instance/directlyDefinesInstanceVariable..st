@@ -1,3 +1,3 @@
 testing
-directlyDefinesInstanceVariable: aString 
-	^self instanceVariableNames includes: aString
+directlyDefinesInstanceVariable: aString
+  ^ self instanceVariableNames includes: aString

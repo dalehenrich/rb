@@ -2,7 +2,7 @@
 	"class" : {
 		"existingNamed:" : "",
 		"initialize" : "lr 7/1/2008 10:57",
-		"named:" : "" },
+		"named:" : "RichardSargent 10/13/2016 22:59" },
 	"instance" : {
 		"addClassVariable:" : "",
 		"addPoolDictionary:" : "",
@@ -14,7 +14,7 @@
 		"classVariableNames:" : "",
 		"comment" : "lr 7/1/2008 11:09",
 		"comment:" : "lr 7/1/2008 10:55",
-		"definitionString" : "bh 11/8/2000 14:38",
+		"definitionString" : "RichardSargent 08/28/2016 14:04",
 		"directlyDefinesClassVariable:" : "",
 		"directlyDefinesPoolDictionary:" : "",
 		"initialize" : "lr 7/1/2008 10:58",

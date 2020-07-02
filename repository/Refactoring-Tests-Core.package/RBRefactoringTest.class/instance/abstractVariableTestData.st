@@ -1,6 +1,6 @@
 private
 abstractVariableTestData
-^'
+  ^ '
 | model |
 (model := RBNamespace 
 			onEnvironment: ((RBClassEnvironment onEnvironment: RBBrowserEnvironment new) 

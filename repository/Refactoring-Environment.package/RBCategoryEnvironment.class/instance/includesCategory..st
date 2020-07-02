@@ -1,4 +1,4 @@
 testing
 includesCategory: aCategory
-	^(categories includes: aCategory)
-		and: [super includesCategory: aCategory]
+  ^ (categories includes: aCategory asSymbol)
+    and: [ super includesCategory: aCategory ]

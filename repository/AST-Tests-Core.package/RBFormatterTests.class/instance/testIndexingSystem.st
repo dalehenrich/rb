@@ -5,6 +5,8 @@ testIndexingSystem
       Smalltalk
         at: each
         ifPresent: [ :class | 
-          class ifNotNilself
-            formatClass: class;
-            formatClass: class class ] ]
+          class
+            ifNotNil: [ 
+              self
+                formatClass: class;
+                formatClass: class class ] ] ]

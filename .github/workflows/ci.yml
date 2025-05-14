@@ -13,11 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-20.04, macos-latest ]
-        smalltalk: [ GemStone64-3.7.1, GemStone64-3.6.8, GemStone64-3.5.8 ]
-        exclude: 
-          - smalltalk: GemStone64-3.5.8
-            os: macos-latest
+        os: [ ubuntu-22.04, ubuntu-24.04, macos-latest ]
+        smalltalk: [ GemStone64-3.7.2, GemStone64-3.7.1, GemStone64-3.6.8 ]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2

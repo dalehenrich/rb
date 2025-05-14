@@ -30,7 +30,7 @@ jobs:
     name: Post Workflow Status To Slack
     needs:
       - build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
        - name: Slack Workflow Notification
          uses: Gamesight/slack-workflow-status@master
